@@ -89,8 +89,134 @@
     </div>
   </nav>
 
+
+
+
+  <style>
+  
+    h4{
+      margin-top: 50px;
+      flex: 1 100%;
+      text-align: center;
+    }
+    .p1{
+      color: gray;
+      text-align: center;
+      flex: 1 100%;
+    }
+  
+  </style>
   <!-- 1:1문의 -->
   
+<div class="tablebox">
+    <h4>1:1문의</h4>
+    <p class="p1">The design and maintenance are excellent.</p>
+    <div class="tablebox1">
+    <table class="a11">
+
+      
+      <tbody>
+        <tr>
+          <th scope="row" class="topborder">문의</th>
+          <td class="td1 topborder" > <select name="" id="">
+            <option value="">문의</option>
+          </select> </td>
+
+        </tr>
+        <tr>
+          <th scope="row">성명</th>
+          <td class="td1"><input type="text"></td>
+
+        </tr>
+        <tr>
+          <th scope="row">전번</th>
+          <td class="td1"><input type="text"></td>
+
+        </tr>
+      </tbody>
+
+    </table>
+    <div class="buttonbox">
+      <button><img src="/img/customer/btn_confirm.gif" alt=""></button>
+      <button><img src="/img/customer/btn_cancel.gif" alt=""></button>
+    </div>
+</div>
+</div>
+  <div id="footer"></div>
+<style>
+.buttonbox{
+  margin-bottom: 100px;
+}
+
+input{
+  width: 60%;
+  border-color: rgba(128, 128, 128, 0.356);
+  border-radius: 1px;
+}
+
+  .topborder{
+    border-top: 3px solid gray;
+  }
+
+.tablebox{
+  flex-flow: row wrap;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.tablebox1{
+  flex-flow: row wrap;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+
+  .a11 {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 70px;
+
+}
+.a11 thead th {
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+    color: rgba(1, 1, 2, 0.767);
+    border-top: 2px solid gray;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.a11 tbody th {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    color: gray;
+    background-color: rgba(167, 158, 158, 0.144);
+    
+}
+.a11 td {
+  text-align: center;
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+.a11 .td1 {
+  text-align: left;
+    width: 80%;
+    padding: 10px;
+}
+
+</style>
+
 
   <!-- 푸터 -->
   <div id="footer"></div>

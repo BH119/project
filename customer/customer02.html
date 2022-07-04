@@ -90,7 +90,196 @@
   </nav>
 
   <!-- 묻고답하기 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
   
+  h4{
+    margin-top: 50px;
+    flex: 1 100%;
+    text-align: center;
+  }
+  .p1{
+    text-align: center;
+    flex: 1 100%;
+  }
+
+</style>
+
+
+
+
+
+
+  <div class="tablebox">
+    <h4>묻고답하기</h4>
+    <p class="p1">The design and maintenance are excellent.</p>
+    <div class="tablebox1">
+    <table class="a11">
+      <thead>
+        <tr>
+          <th scope="cols">번호</th>
+          <th scope="cols">제목</th>
+          <th scope="cols">작성자</th>
+          <th scope="cols">작성일</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td class="td1"><a href="" class="a3"> <img src="/img/customer/icon_sct.gif" alt=""> 내용이 들어갑니다.</a></td>
+          <td>작성자1.</td>
+          <td>2222-22-22</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td class="td1"><a href="" class="a3"><img src="/img/customer/icon_sct.gif" alt=""> 내용이 들어갑니다.</a></td>
+          <td>작성자1.</td>
+          <td>2222-22-22</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td class="td1"><a href="" class="a3"> <img src="/img/customer/icon_sct.gif" alt=""> 내용이 들어갑니다.</a></td>
+          <td>작성자1.</td>
+          <td>2222-22-22</td>
+        </tr>
+      </tbody>
+    </table>
+   
+
+<div class="searchbox">
+  <div class="select1">
+    <select>
+      <option value="">제목</option>
+      <option value="내용">내용</option>
+      <option value="작성자">작성자</option>
+    </select>
+    <input type="text">
+    <button> <img src="/img/customer/search.gif" alt=""> </button>
+  </div>
+    <div class="button2">    
+    <button> <img src="/img/customer/write.gif" alt="" class="botton"></button>
+  </div>
+</div>
+</div>
+
+
+
+
+  <div id="footer"></div>
+<style>
+
+.p1{
+  color: gray;
+}
+
+
+
+  .select1{
+    display: flex;
+  }
+
+
+
+
+.searchbox{
+  flex: 1 100%;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: space-between;
+
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.a3:hover{
+  text-decoration: none;
+  color: black;
+}
+.a3{
+  text-decoration: none;
+  color: black;
+}
+
+.tablebox{
+  flex-flow: row wrap;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.tablebox1{
+  flex-flow: row wrap;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+
+  .a11 {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 70px;
+
+}
+.a11 thead th {
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+    color: rgba(1, 1, 2, 0.767);
+    border-top: 2px solid gray;
+    background-color: rgba(128, 128, 128, 0.096);
+}
+.a11 tbody th {
+
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    color: gray
+    
+}
+.a11 td {
+  text-align: center;
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+.a11 .td1 {
+  text-align: left;
+    width: 50%;
+    padding: 10px;
+}
+
+#footer {
+  width: 100%;
+}
+
+</style>
+
+
+
+
   <!-- search bar -->
   
   <!-- 푸터 -->
@@ -101,4 +290,5 @@
     
   </script>
 </body>
+
 </html>
