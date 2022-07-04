@@ -90,9 +90,150 @@
   </nav>
 
   <!-- FAQ -->
+  <div class="tablebox">
+    <h4>FAQ</h4>
+    <p class="p1">The design and maintenance are excellent.</p>
+    <div class="tablebox1">
+    <table class="a11">
 
-  <!-- 푸터 -->
+      
+      <tbody>
+        <tr>
+          <th scope="row" class="topborder">질문</th>
+          <td class="topborder"><a href="" class="b2">자주하는질문</a></td>
+
+        </tr>
+        <tr>
+          <th scope="row">질문</th>
+          <td><a href="" class="b2">자주하는질문</a></td>
+        </tr>
+        <tr>
+          <th scope="row">질문</th>
+          <td><a href="" class="b2">자주하는질문</a></td>
+        </tr>
+      </tbody>
+
+    </table>
+    <div class="searchbox">
+      <div class="select1">
+        <select>
+          <option value="">제목</option>
+          <option value="내용">내용</option>
+          <option value="작성자">작성자</option>
+        </select>
+        <input type="text">
+        <button> <img src="/img/customer/search.gif" alt=""> </button>
+   
+
+</div>
+
+</div>
+</div>
+</div>
   <div id="footer"></div>
-
 </body>
+
+
+<style>
+  .searchbox{
+  margin-top: 30px;
+  flex: 1 100%;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  }
+
+
+  h4{
+    margin-top: 50px;
+    flex: 1 100%;
+    text-align: center;
+  }
+  .p1{
+    color: gray;
+    text-align: center;
+    flex: 1 100%;
+  }
+
+
+
+input{
+  width: 60%;
+  border-color: rgba(128, 128, 128, 0.356);
+  border-radius: 1px;
+}
+
+  .topborder{
+    border-top: 3px solid gray;
+    
+  }
+
+  .b2:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.b2:hover{
+  text-decoration: none;
+  color: black;
+}
+.b2{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.tablebox{
+  flex-flow: row wrap;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.tablebox1{
+  flex-flow: row wrap;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+
+
+  .a11 {
+    width: 100%;
+    border-collapse: collapse;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 70px;
+
+}
+
+.a11 tbody th {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    color: gray;
+    background-color: rgba(167, 158, 158, 0.144);
+    
+}
+.a11 td {
+  text-align: left;
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+.a11 .td1 {
+  text-align: left;
+    width: 80%;
+    padding: 10px;
+}
+
+
+</style>
 </html>
