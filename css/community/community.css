@@ -99,7 +99,8 @@
 }
 table {
   width: 100%;
-  overflow: hidden; white-space:nowrap;
+  overflow: hidden; 
+  white-space:nowrap;
 }
 .tr01 {
   text-align: center;

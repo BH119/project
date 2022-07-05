@@ -25,7 +25,7 @@
     });
 
     function join() {
-      var id = document.getElementById("id");
+      var id = document.getElementById("pid");
       var pw = document.getElementById("pw");
       var repw = document.getElementById("repw");
       var name = document.getElementById("name");
@@ -97,6 +97,11 @@
       location.href="join4.html";
     };
 
+    function search() {
+      window.name = "join3form"
+      window.open("join3_1.html", "join3_1form", "width=430, height=350, resizable=no, scrollbars=no");
+    };
+
   </script>
 
 </head>
@@ -141,7 +146,7 @@
         <table class="table">
           <tr>
             <td style="padding: 5px 0 5px 0;" class="td01">아이디</td>
-            <td style="padding: 5px 0 5px 10px;"class="td02"><input type="text" id="id" name="id" style="width: 130px; height: 20px;"><img src="/img/member/btn_iddupl.gif" style="margin-left: 5px; cursor: pointer;" onclick=""> (영문 소문자, 숫자4~16자)</td>
+            <td style="padding: 5px 0 5px 10px;"class="td02"><input type="text" id="pid" name="id" style="width: 130px; height: 20px;" readonly onclick="search()"><img src="/img/member/btn_iddupl.gif" style="margin-left: 5px; cursor: pointer;" onclick="search()"> (영문 소문자, 숫자4~16자)</td>
           </tr>
           <tr>
             <td style="padding: 5px 0 5px 0;" class="td01">비밀번호</td>

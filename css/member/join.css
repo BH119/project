@@ -149,12 +149,22 @@
   padding: 15px;
   margin-bottom: 30px;
 }
-.span07 {
+.sp07 {
   font-size: 14px;
   font-weight: bold;
   color: rgb(230, 0, 0);
 }
-.span08 {
+.sp08 {
   font-size: 15px;
   font-weight: 300;
   color: #555;
+}
+.span5 {
+  font-size: 13px;
+  font-weight: bold;
+  color: orangered;
+}
+.span6 {
+  font-size: 13px;
+  font-weight: 200;
+}
