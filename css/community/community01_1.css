@@ -24,15 +24,16 @@ table {
   color: #444;
 }
 .td02 {
-  /* border-left: 1px solid #e1e1e1; */
+  width: 78%;
+  border-left: 1px solid #e1e1e1;
   font-size: 14px;
   font-weight: normal;
-  padding: 15px 650px 15px 5px;
+  padding: 1.2% 0% 1.2% 3%;
   color: #777;
 }
 .td03 {
   font-size: 14px;
   font-weight: normal;
-  padding: 15px 0 15px 10px;
+  padding: 1.2% 0% 1.2% 2%;
   color: #777;
 }
