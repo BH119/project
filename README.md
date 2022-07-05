@@ -1,16 +1,16 @@
 # project
 자바 백엔드 개발자로 취업하기 위한 포폴 제작 전형적인 회사 홈페이지 만들기 <br><br>
-프론트엔드 <br>
+# 프론트엔드 <br>
 HTML5/CSS3/JS <br>
 flexgrid <br>
 jQuery/JS Plugins <br>
 Bootstrap4 <br>
 반응형 웹제작(PC,모바일) <br><br>
-백엔드 <br>
+# 백엔드 <br>
 자바 / JSP / JSTL&EL <br>
 SpringBoot Framework / Mybatis F/W <br>
 Oracle 11g express DBMS <br><br>
-작업 구분<br>
+# 작업 구분<br>
 1.메인화면<br>
 2.로그인화면<br>
 3.회원가입<br>
@@ -26,4 +26,5 @@ Oracle 11g express DBMS <br><br>
 2. 브랜치를 2개 만들어서 각자 맡은 부분을 만든뒤 push함. <br>
 3. push 후에 main에 2개의 브랜치를 병합시킴. <br>
 4. 병합 후 수정할 사항 조금씩 수정하기로함. <br>
-5. join.html 부분 수정사항이 있어서 main에 바로 수정해서 push함. <br>
+5. 화면크기에 맞게 하나씩 수정함. <br>
+6. join.html 부분 수정사항이 있어서 main에 바로 수정해서 push함. <br>
