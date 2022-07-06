@@ -1,85 +1,86 @@
-.communitySection2 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.tit01 {
+  font-size: 28px;
+  margin: 50px 0 0px 0;
   text-align: center;
+  font-weight: 500;
+  color: #222;;
 }
-.communitySection2 div div:nth-child(1) {
-  font-size: 30px;
-  padding-bottom: 10px;
+.tit02 {
+  font-size: 13px;
+  margin: 5px 0 45px 0;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
 }
-.communitySection2 div div:nth-child(2) {
-  color: gray;
-  font-size: 14px;
-  padding-bottom: 30px;
+table {
+  overflow: hidden; 
+  white-space:nowrap;
 }
-/* 공지사항 */
-.Notice {
-  width: 100%;
+.tr01 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #f8f8f8;
 }
-.Notice table {
-  width: 100%;
-  height: auto;
-  border-top: 2px solid black;
+.td01 {
+  text-align: center;
+  font-size: 15px;
 }
-.Notice tr {
-  border-bottom: 1px solid rgb(236, 236, 236);
-  cursor: pointer;
-  height: 50px;
+.td02 {
+  font-size: 15px;
 }
-.Notice td:nth-child(2) {
-  text-align: left;
-  padding-left: 20px;
+.td03 {
+  font-size: 15px;
 }
-/* 제목줄 */
-.Notice table tr:nth-child(1) {
-  background-color: rgb(236, 236, 236);
+a:link {
+  color: #888;
 }
-.Notice td {
-  color: #777;
-  font-size: 14px;
+a:visited {
+  color : #888;
 }
-
-/* search bar */
-.search {
-  padding-bottom: 50px;
+a {
+text-decoration-line: none;
 }
-.search input[type="text"] {
-  height: 25px;
+.select, .sr, .submit {
+  display: block;
+  float: left;
+  margin-right: 2px;
 }
-.search input[type="image"] {
-  border: 1px solid black;
-  width: 26px;
-}
-.search td {
-  padding-left: 3px;
-}
-.search td:nth-child(3) {
-  padding-top: 5px;
-}
-
-/* 공지사항 상세 */
-.NoticeContent {
-  border-top: 2px solid black;
-}
-.NoticeContent table {
-  width: 100%;
-}
-.NoticeContent tr {
-  border-bottom: 1px solid rgb(207, 207, 207);
-  height: 50px;
-}
-.NoticeContent th {
-  background-color: rgb(241, 241, 241);
-  width: 30%;
-}
-.NoticeContent td {
-  color: #777;
-  font-size: 14px;
-  text-align: left;
+.select {
+  border: 1px solid #999;
+  font-size: 13px;
+  color: #999;
+  width: 70px;
+  height: 28px;
   padding-left: 5px;
 }
-.NoticeContent div:last-child {
-  text-align: left;
-  padding-top: 20px;
-  padding-left: 10px;
+.sr {
+  border: 1px solid #999;
+  height: 28px;
+  font-size: 13px;
+  padding-left: 5px;
+  color: #888;
+}
+.submit {
+  border: 1px solid #999;
+  width: 30px;
+}
+
+.container{
+  box-sizing: border-box;
+  flex-flow: row wrap;
+}
+.tit01{
+  flex:1 100%
+}
+.tit02{
+  flex:1 100%
+}
+.tb1{
+  flex:1 50%;
+  display: flex;
+}
+.tb{
+  flex: 1 100%;
+  
 }

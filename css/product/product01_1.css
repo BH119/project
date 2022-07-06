@@ -75,3 +75,37 @@
   border-bottom: 1px solid #cccccc;
   padding: 0 0 30px 0;
 }
+.tit01 {
+  font-size: 28px;
+  margin: 50px 0 0px 0;
+  text-align: center;
+  font-weight: 500;
+  color: #222;;
+}
+.tit02 {
+  font-size: 13px;
+  margin: 5px 0 45px 0;
+  text-align: center;
+  font-weight: normal;
+  color: #999;
+}
+table {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.td01 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #f8f8f8;
+}
+.td02 {
+  border-left: 1px solid #e1e1e1;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 15px 70px 15px 5px;
+}
+.pro {
+  width: 100%;
+  overflow: hidden; white-space:nowrap;
+}
