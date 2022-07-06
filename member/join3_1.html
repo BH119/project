@@ -13,6 +13,12 @@
     
     <script>
 
+        $(document).ready(function(){
+        $('#headerTop').load("../headerTop-sub.html");
+        $('#header').load("../header-sub.html");     
+        $('#footer').load("../footer-sub.html");
+        });
+
         function searchid() {
             opener.document.getElementById('pid').value = document.getElementById('cid').value;
             self.close();
@@ -24,7 +30,7 @@
             var span3 = document.getElementById('span3');
             span1.innerHTML = "<span style='font-size: 13px; font-weight: bold; color: orangered;'>입력하신 아이디는 사용가능합니다.</span>";
             span2.innerHTML = "<span style='font-size: 13px; font-weight: 200;'>확인버튼을 눌러주세요.</span>";
-            span3.innerHTML = "<img src='/img/member/btn_confirm02.gif' onClick='searchid();' style='cursor: pointer'>";
+            span3.innerHTML = "<img src='../img/member/btn_confirm02.gif' onClick='searchid();' style='cursor: pointer'>";
 
         };
 
